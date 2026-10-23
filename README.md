@@ -42,14 +42,14 @@ Download the dataset and unzip it into `data/raw/` (so you have `data/raw/images
 
 | Notebook | Purpose | Owner |
 | --- | --- | --- |
-| 01_data_prep_and_eda | Crop signs, create the frozen split, variation plots | |
-| 02_simple_features_classifiers | HOG + HSV histogram, 2 classifiers | |
-| 03_handdesigned_features_classifiers | Color mask + shape feature, 2 classifiers | |
-| 04_pretrained_features_classifiers | ResNet embeddings (CPU), 2 classifiers | |
-| 05_results_and_efficiency | 6-combo accuracy vs. cost, discussion | |
-| Proposal and repo | Repo setup, proposal | |
-| Report | Assemble PDF from notebook explanations | |
-| Slides | Final presentation, weekly updates | |
+| 01_data_prep_and_eda | Crop signs, create the frozen split, variation plots |Cesar|
+| 02_simple_features_classifiers | HOG + HSV histogram, 2 classifiers |Cesar|
+| 03_handdesigned_features_classifiers | Color mask + shape feature, 2 classifiers |Tung La |
+| 04_pretrained_features_classifiers | ResNet embeddings (CPU), 2 classifiers |Vansh|
+| 05_results_and_efficiency | 6-combo accuracy vs. cost, discussion |Vansh|
+| Proposal and repo | Repo setup, proposal |All|
+| Report | Assemble PDF from notebook explanations |All|
+| Slides | Final presentation, weekly updates |All|
 
 Notebook 01 must produce the split CSVs first. Notebooks 02-04 can prototype on ~20 starter crops per class before that, then run on the full split. Notebook 05 reads `results/results.csv`, which notebooks 02-04 fill in.
 
